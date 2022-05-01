@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ini adalah jd node</title>
+</head>
+<body>
+<ul id='menu'>
+	<li id="first">first</li>
+	<li id="second">second</li>
+	<li id="third">third</li>
+	
+</ul>
+
+<script>
+	const text =document.getElementById('menu');
+	console.info(text);//menagmbil data dari id
+	text.removeChild(document.getElementById('first'));//otomatis <li id="first">first</li> terhapus
+	const text1 =document.getElementById('second');
+	console.info(text1);
+	const text2 =document.getElementById('second');
+	console.info(text2);
+	const text3 =document.getElementById('third');
+	console.info(text3);
+</script>
+</body>
+</html>
